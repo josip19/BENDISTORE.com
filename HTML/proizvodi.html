@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"content="width=device-width, initial-scale-1.0">
+<title>Svi proizvodi-BENDI STORE  </title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="navbar">
+            <img src="menus.png" class="menu-icon " 
+            onclick="menutoggle()">
+            <div class="logo">
+                <img src="C:\Users\KORISNIK\OneDrive\Radna površina\HTML/logo.png" width="125px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="">Početna</a></li>
+                    <li><a href="">Proizvodi</a></li>
+                    <li><a href="">O nama</a></li>
+                    <li><a href="">Kontakt</a></li>
+                    <li><a href="">Moj Profil</a></li>
+                </ul>
+    
+    
+    
+            </nav>
+            <img src="menus.png" class="menu-icon" 
+            onclick="menutoggle()">
+        </div>
+    
+        
+    </div>
+
+
+
+
+    
+
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>Svi proizvodi</h2>
+            <select>
+                <option>Sortiraj normalno</option>
+                <option>Sortiraj po cijeni</option>
+                <option>Sortiraj po popularnosti</option>
+                <option>Sortiraj po prodaji</option>
+
+                
+            </select>
+        </div>
+        <div class="row">
+     <div class="col-4">
+         <img src="proizvod 1.jpg" >
+         <h4>Zimska jakna plava</h4>
+         <p>490.00kn</p>
+
+     </div>     
+
+              <div class="col-4">
+         <img src="prpizvod 2.jpg" >
+         <h4>Zimska jakna žuta</h4>
+         <p>510.00kn</p>
+
+     </div>   
+         <div class="col-4">
+        <img src="Muška-Zimska-Jakna-Parka-Lenasso-17-K5123-Maslinasta.jpg" >
+        <h4>Zimska jakna tamnozelena</h4>
+        <p>370.00kn</p>
+        <div class="row">
+            <div class="col-4">
+                <img src="artikl2.jpeg" >
+                <h4>Hoodie crni</h4>
+                <p>249.99kn</p>
+       
+            </div>     
+       
+                     <div class="col-4">
+                <img src="artikl3.jpg" >
+                <h4>Hoodie Croatia</h4>
+                <p>310.00kn</p>
+       
+            </div>   
+                <div class="col-4">
+               <img src="artikl4.jpg" >
+               <h4>Hoodie Rainbow</h4>
+               <p>300.00kn</p>
+       
+           </div>   
+           <div class="row">
+            <div class="col-4">
+                <img src="artikl5.webp" >
+                <h4>Komplet trenirka</h4>
+                <p>400.00kn</p>
+       
+            </div>     
+       
+                     <div class="col-4">
+                <img src="artikl6.jpg" >
+                <h4>Pikachu trenirka</h4>
+                <p>249.90kn</p>
+       
+            </div>   
+                <div class="col-4">
+               <img src="artikl7.jpg" >
+               <h4>Hoodie sivi</h4>
+               <p>99.99kn</p>
+       
+           </div>     
+           <div class="page-btn">
+               <span>1</span>
+               <span>2</span>
+               <span>3</span>
+               <span>&#8594</span>
+           </div>
+    </div>     
+        
+      
+   <div class="footer">
+       <div class="container">
+           <div class="row">
+               <div class="footer-col-1">
+                   <h3>Preuzmi našu aplikaciju</h3>
+                   <p>Preuzmi našu aplikaciju za Android i IOS</p>
+                   <div class="app-logo">
+                       <img src="appstor.png" >
+                       <img src="playstore.png" >
+                   </div>
+               </div>
+               <div class="footer-col-2"></div>
+               <img src="logo.png" >
+               <p>Naš cilj je omogučiti svim generacijama najkvalitetniju odjeću od najpoznatijih svijtskih bredndova
+                   po najpovoljnijim cijenama   </p>
+           </div>
+           <div class="footer-col-3">
+                <h3>Korisni Linkovi</h3>
+                <ul>
+                    <li>Kuponi</li>
+                    <li>Blog</li>
+                    <li>Povrat narudžbe</li>
+                  </ul>
+           </div>
+           <div class="footer-col-4">
+               <h3>Pratite nas na:</h3>
+               <ul>
+                   <li>Facebook</li>
+                   <li>Instagram</li>
+                   <li>YouTube</li>
+                   <li>Twitter</li>
+               </ul>
+           </div>
+           <hr>
+           <p class="copyright">Copyright 2021-Josip Fajdetć</p>
+       </div>
+   </div>
+   <script>
+       var MenuItems=document.getElementById("MenuItems");
+       MenuItems.style.maxHeight="0px";
+       function menutoggle(){
+           if( MenuItems.style.maxHeight=="0px"){
+            MenuItems.style.maxHeight="200px";
+           }
+           else{
+            MenuItems.style.maxHeight="0px";
+           }
+       }
+   </script>
+</body>
+</html>
